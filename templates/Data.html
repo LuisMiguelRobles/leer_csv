@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Datos Archivo</h1>
+    <ul>
+        {% for data in data %}
+        <li>
+            {{ data }}
+        </li>
+        {% endfor %}
+
+    </ul>
+    <hr>
+    <h2>Pares</h2>
+    <ul>
+        {%for par in pares%}
+        <li>
+            {{par}}
+        </li>
+        {%endfor%}
+    </ul>
+    <hr>
+    <h2>Impares</h2>
+    <ul>
+        {%for impar in impares%}
+        <li>
+            {{impar}}
+        </li>
+        {%endfor%}
+    </ul>
+</body>
+</html>
